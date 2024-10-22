@@ -1,10 +1,9 @@
 # FLDN
-This project is a python implementation of the FLDN
+This project is the code for "Federated Learning of Diffusion Networks".
 
-network.dat is the target network file, the number of nodes is 2000 and the average node degree is 4
+FLDN: The main implementation of FLDN, which contains running examples
 
-observation_data.txt is the input observation data for the algorithm, containing 1500 samples
+Network_Data: the target network, the number of nodes is 2000 and the average node degree is 4
 
-FLDN.py is the algorithm implementation file, which contains running examples
+Observation_Data: Code for generating observation data
 
-FLDN_utils.py is the utils file required by FLDN
