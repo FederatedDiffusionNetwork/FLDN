@@ -81,7 +81,6 @@ def cal_mae_v2(groundtruth_network, p, infer_p):
 
 def cal_mse(p, infer_p):
     mse = np.mean(np.square(p-infer_p))
-
     return mse
 
 
