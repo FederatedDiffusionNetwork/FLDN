@@ -3,6 +3,7 @@ from FLDN_utils import *
 from sklearn.cluster import KMeans
 import time
 import math
+import numpy as np
 
 
 graph_path = './data/network.dat'
